@@ -34,7 +34,7 @@ Personal preferences:
 Below are descriptions of the scripts included in this repository.
 
 Any programs named `xxx_min.bf` are condensed versions of the respective program named 
-`xxx`.
+`xxx.bf`.
 
 ###meta.bf
 
@@ -59,7 +59,7 @@ in, they are "readable", if that word can apply to `Brainfuck` programs).
 
 An obligatory [`hello world`](http://en.wikipedia.org/wiki/Hello_world_program) program.
 
-Auto-generated using `meta.bf` (hah, that was easy!)
+Auto-generated using `meta.bf` (hah, that was easy)!
 
 
 
