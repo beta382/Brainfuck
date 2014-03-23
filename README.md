@@ -13,7 +13,12 @@ extremely difficult to actually get anything done with it. Nothing practical
 can come from it, although it is a wonderful exercise in really thinking about
 programming (as well as patience).
 
-You can find out more about `Brainfuck` [here](en.wikipedia.com/wiki/`Brainfuck`).
+`Brainfuck` is not a vulgar word. It is the name of a programming language, so don't be
+turned off by the name. However, feel free to be turned off by the esoteric nature of the
+language, and keep in mind that although `Brainfuck` is not a vulgar word, it has a very
+high chance of creating vulgar words if you do choose to develop with it.
+
+You can find out more about `Brainfuck` [here](en.wikipedia.com/wiki/Brainfuck).
 
 ##How do I run one of these?
 
@@ -36,15 +41,31 @@ it will output the original text string.
 
 For example (assuming that `bf` is your interpreter):
 
-    >My-machine:~/Documents/`Brainfuck` root# echo 'hello world' | bf meta.bf > hello.bf
-    >My-machine:~/Documents/`Brainfuck` root# bf hello.bf
+    >My-machine:~/Documents/Brainfuck root# echo 'hello world' | bf meta.bf > hello.bf
+    >My-machine:~/Documents/Brainfuck root# bf hello.bf
     >hello world
     >
-    >My-machine:~/Documents/`Brainfuck` root#
+    >My-machine:~/Documents/Brainfuck root#
 
 So basically, writing a "Hello World" program (a tedious task in `Brainfuck`) is
-now automated. It's a Brainfuck program that writes Brainfuck programs.
+now automated. It's a `Brainfuck` program that writes `Brainfuck` programs. And the
+`Brainfuck` programs it writes have a memory footprint of one byte. And they look nice (as
+in, they are "readable", if that word can apply to `Brainfuck` programs).
 
-(I actually had this done months ago, but I had it stored on my iPhone, and
-when I restored it, I lost it. So, I'm re-making it from scratch, so it isn't
-in its final form. Eventually, pretty-printing will be added back)
+###helloworld.bf
+
+An obligatory `[hello world](http://en.wikipedia.org/wiki/Hello_world_program)` program.
+
+Auto-generated using `meta.bf` (hah, that was easy!)
+
+
+
+
+
+
+
+
+
+
+
+
