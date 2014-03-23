@@ -33,6 +33,9 @@ Personal preferences:
 
 Below are descriptions of the scripts included in this repository.
 
+Any programs named `xxx_min.bf` are condensed versions of the respective program named 
+`xxx`.
+
 ###meta.bf
 
 This is my pride and joy. A "meta" `Brainfuck` program. You pass it a text string,
