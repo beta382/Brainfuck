@@ -54,7 +54,7 @@ in, they are "readable", if that word can apply to `Brainfuck` programs).
 
 ###helloworld.bf
 
-An obligatory `[hello world](http://en.wikipedia.org/wiki/Hello_world_program)` program.
+An obligatory [`hello world`](http://en.wikipedia.org/wiki/Hello_world_program) program.
 
 Auto-generated using `meta.bf` (hah, that was easy!)
 
