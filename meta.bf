@@ -1,5 +1,8 @@
-Memory structure: | ZERO | _leftsquare_ | _minus_ | _rightsquare_ | _plus_ | _dot_ | ZERO |
-                  | _space_ | _newline_ | TEN COUNTER | FIVE COUNTER | DATA | ZERO |
+Memory structure: | ZERO1 |
+                  | _leftsquare_ | _minus_ | _rightsquare_ | _plus_ | _dot_ |
+                  | ZERO2 |
+                  | _space_ | _newline_ | TEN COUNTER | FIVE COUNTER | DATA |
+                  | ZERO3 |
 
 +++++ +++++
 [
@@ -7,9 +10,9 @@ Memory structure: | ZERO | _leftsquare_ | _minus_ | _rightsquare_ | _plus_ | _do
     >++++         _minus_
     >+++++ ++++   _rightsquare_
     >++++         _plus_
-	>++++         _dot_
+    >++++         _dot_
     >
-	>+++          _space_
+    >+++          _space_
     >+            _newline_
     >+            TEN COUNTER
     <<<<<<<<<-  Back to the loop counter
@@ -32,14 +35,43 @@ Memory structure: | ZERO | _leftsquare_ | _minus_ | _rightsquare_ | _plus_ | _do
     >.            Print _minus_
     >.            Print _rightsquare_
     
-    >>>>>>>>      Get back to DATA
-    [             Print all of the _plus_ses
-        <<<<<<<.       Print _plus_
-        >>>>>>>-       Back to DATA
+    >>>>>>>>      Get to DATA
+    [             Print all of the _plus_ses; prettily!
+    
+        <<            Get to TEN COUNTER
+        [             Enter only if TEN COUNTER hasn't run out
+        
+            >             Get to FIVE COUNTER
+            [             Enter only if FIVE COUNTER hasn't run out
+            
+                >             Get to DATA
+                [             Enter only if there are more _plus_ses; but always exit
+                    <<<<<<<.      Print _plus_
+                    >>>>>>>-      Decrement DATA
+                    >             Get to ZERO3
+                ]
+                
+                <<[<]         Get to ZERO2
+                >>>>-         Decrement FIVE COUNTER
+            ]
+            
+            +++++         Reset FIVE COUNTER
+            <<<.          Print _space_
+            >>-           Decrement TEN COUNTER
+        ]
+        
+        +++++ +++++   Reset TEN COUNTER
+        <.            Print _newline_
+        <...          Print three _space_s
+        >>>>          Get to DATA
     ]
     
     <<<<<<.       Print _dot_
-	>>>.         Print _newline_
+    >>>.          Print _newline_
     
     >>>-,+        Get next input
 ]
+
+
+
+
