@@ -15,10 +15,10 @@ programming (as well as patience).
 
 `Brainfuck` is not a vulgar word. It is the name of a programming language, so don't be
 turned off by the name. However, feel free to be turned off by the esoteric nature of the
-language, and keep in mind that although `Brainfuck` is not a vulgar word, it has a very
+language, and keep in mind that although it is not a vulgar word, it has a very
 high chance of creating vulgar words if you do choose to develop with it.
 
-You can find out more about `Brainfuck` [here](en.wikipedia.com/wiki/Brainfuck).
+You can find out more about `Brainfuck` [here](http://en.wikipedia.com/wiki/Brainfuck).
 
 ##How do I run one of these?
 
