@@ -31,7 +31,7 @@ Personal preferences:
 
 ##What exactly is in here?
 
-Below are descriptions of the scripts included in this repository.
+Below are descriptions of the programs included in this repository.
 
 Any programs named `xxx_min.bf` are condensed versions of the respective program named 
 `xxx.bf`.
